@@ -21,7 +21,7 @@ OPENROUTER_API_BASE : str = os.environ.get("OPENROUTER_API_BASE", "https://openr
 DEFAULT_LLM_MODEL :str= os.environ.get("DEFAULT_LLM_MODEL", "mistralai/mistral-small-3.2-24b-instruct")
 EMBEDDING_MODEL_NAME : str = os.environ.get("EMBEDDING_MODEL_NAME", "sentence-transformers/all-MiniLM-L6-v2")
 GOOGLE_MODEL_NAME = "gemini-2.5-pro"
-GOOGLE_API_KEY = "AIzaSyAUA_phnPkD6Vu4TvUgi5gXvs5_pKaVvrw"
+
 
 #------------------------ Text Generation Model -----------------------------
 OLLAMA_CHAT_MODEL = os.environ.get("OLLAMA_CHAT_MODEL", "llama3.2")
