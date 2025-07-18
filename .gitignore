@@ -1,0 +1,35 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+backend/.env
+
+# Data and database
+/data/db/
+/data/uploads/
+*.sqlite3
+
+# Logs
+*.log
+
+# Translation and localization
+*.pot
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.DS_Store
+
+# Project-specific files and folders
+project/
+trail.ipynb
+backend/app/extractor/
+hello.svg
+my_chart.png

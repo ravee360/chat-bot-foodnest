@@ -1,0 +1,36 @@
+# Add your project requirements here 
+# For example: 
+fastapi>=0.68.0
+uvicorn[standard]>=0.15.0
+streamlit>=1.22.0
+python-dotenv>=0.19.0
+pypdf>=3.0.0
+pytesseract>=0.3.8
+Pillow>=9.0.0
+unstructured>=0.10.0
+tiktoken>=0.3.0
+pydantic_settings>=2.0.0
+langchain-huggingface>=0.0.5
+langchain-chroma>=0.0.1
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+# fitz>=0.0.1
+PyMuPDF>=1.18.0
+tools>=0.0.1
+python-multipart>=0.0.5
+requests>=2.28.0
+langchain-text-splitters>=0.0.1
+langchain-community>=0.0.10
+python-pptx==0.6.23
+pandas==2.2.3
+docx2txt==0.9
+openpyxl>=3.1.2 #to handle excel # langchain-groq
+langchain-ollama
+langchain-openai
+langchain-groq
+langchain-experimental
+easyocr
+pytesseract
+# Additional dependencies for deployment
+huggingface-hub>=0.16.0
+gunicorn>=20.1.0
